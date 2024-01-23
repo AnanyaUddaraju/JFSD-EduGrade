@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+      <tlib-version>1.0</tlib-version>
+    <short-name>myCustomTags</short-name>
+    <uri>http://www.example.com/myCustomTags</uri>
+
+    <function>
+        <name>displaystudentcourse</name>
+        <function-class>com.klef.jfsd.springboot.controller.StudentController</function-class> <!-- Class where the method is defined -->
+        <function-signature>java.lang.String displaystudentcourse(java.lang.String)</function-signature> <!-- Method signature -->
+    </function>
+
+</taglib>
